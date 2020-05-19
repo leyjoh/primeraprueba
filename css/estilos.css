@@ -1,0 +1,184 @@
+
+
+body {
+    overflow-x: hidden;
+}
+.navegador{
+   
+    margin: 30px;
+}
+
+
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+
+.enfer{
+    
+
+    position: relative; 
+    left: 50%;   
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.navegador ul li a:hover{
+
+    color: rgb(24, 21, 20);
+   text-decoration: overline;
+}
+.navegador li a{
+    display: block;
+    padding: 15px;
+    text-decoration:none;
+   
+
+}
+.row{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(252, 208, 215);
+    color: rgb(42, 0, 61);
+    margin: 10px;
+    
+}
+
+.tp1{
+    width: 98%;
+    padding-top: 15px;
+    position: relative; 
+    left: 36%;   
+    font-size: 40px;
+    
+    
+}
+
+.p1{
+  
+    
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    
+}
+
+
+footer {
+  width: 100%;  
+  text-align: center;
+  
+}
+
+.formulario ul{
+   
+    margin: 10px;   
+    height: 385px;
+    text-align: center;
+    padding-top: 1px;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(224, 208, 114);
+margin-top: 5px;
+
+    }
+    
+    .tt {
+    padding: 10px;
+     position: relative;
+     font-size: 28px;
+     margin: 0;
+     color:  rgb(18, 51, 73);
+     padding-top: 15px;
+     text-align: center;
+     
+    
+    }
+    .formulario li input{
+        position: relative;
+        right: 30px;
+      padding: 1px;
+      margin-top: 5px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 15px;
+      text-align: center;
+      color:black ;
+      margin-left: 4px;
+    }
+
+    .boton{
+
+        
+      position: relative;
+      right: 25px;
+        margin: 10px;
+       
+     }
+
+
+    .leydy {
+        margin: 30px 10px 20px 10px;
+       
+        
+        height: 60px;
+    
+    padding-top: 15px;
+        font-size: 23px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    
+    background-color: rgb(240, 190, 198);
+    }
+
+.nomb{
+    margin-top: -10px;
+}
+
+
+.iconos{
+    margin: 10px 10px 20px 10px;
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       background-color: rgb(224, 208, 114);
+}
+
+.i1{
+    
+    
+   margin: 5px;
+    height: 30px;
+    width: 25px;
+    border-radius: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 397px) {
+
+    .row{
+   margin-top: -500px;        }
+}
+
+
+@media only screen and (max-width: 397px) {
+
+    .enfer{
+font-size: 13px;    
+
+
+}
+}
+
+
+
+
+
